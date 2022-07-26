@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense app</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <h1>Expense Tracker</h1>
+            <h2>Add an New item:</h2>
+        </div>
+        <form action="#details">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Where was the expense made?" name="name" id="name">
+        </div>
+        <div class="da">
+       <div class="date">
+            <label for="date">Date:</label>
+            <input type="text" placeholder="mm/dd/yyyy" name="date" id="date">
+        </div>
+        <div class="amount">
+            <label for="amount">Amount:</label>
+            <input type="text" name="amount" id="amount">
+        </div>    
+        </div>
+        <button class="expense" type="submit">Add Expense</button>
+    </form>
+    
+    <table>
+        <thead class="thead">
+            <tr>
+                <th class="th-1">Name</th>
+                <th class="th-2">Date</th>
+                <th class="th-3">Amount</th>
+                <th class="th-4"></th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr class="tr-1">
+               <td class="td-1" colspan = "4">No expenses added yet!</td>
+            </tr>
+         </tfoot>
+    </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
