@@ -32,7 +32,7 @@ If you have any feedback, please reach out to us at kehindeoyafemi@gmail.com
 Clone the project
 
 ```bash
-  git clone https://github.com/kennyoyaf/clear-data-react.git
+  git clone https://github.com/kennyoyaf/Expense_tracker.git
 ```
 
 
